@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+*.log
+*.tsbuildinfo
+.DS_Store
+
+# Local environment overrides (OPENDECK_CONFIG_DIR, ports, ...)
+.env
+.env.*
+
+# Runtime state the bridge plugin writes next to itself when run from an installed copy
+bridge/**/devices.json
+bridge/**/devices.json.tmp

@@ -1,0 +1,12 @@
+{
+  "Name": "webdeck bridge",
+  "Author": "webdeck",
+  "Version": "0.1.0",
+  "Description": "Reports connected decks to the webdeck configurator. Has no actions.",
+  "Icon": "icon",
+  "Category": "webdeck",
+  "Actions": [],
+  "OS": [{ "Platform": "mac" }, { "Platform": "linux" }, { "Platform": "windows" }],
+  "CodePath": "bridge.mjs",
+  "SDKVersion": 2
+}
